@@ -13,6 +13,8 @@ const fetchConfigurationByFile = file => {
 
 
 module.exports = defineConfig({
+  
+  projectId: "99gi2s",
 
   e2e: {
 

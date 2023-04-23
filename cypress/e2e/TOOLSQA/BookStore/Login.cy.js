@@ -14,7 +14,7 @@ describe('Login TestSuite', function () {
         });
     })
 
-    it.only('With Valid Credentials', function () {
+    it('With Valid Credentials', function () {
 
        
         cy.login(this.data.username, this.data.password)
